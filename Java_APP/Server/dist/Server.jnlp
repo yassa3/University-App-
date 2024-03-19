@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Server.jnlp">
+  <information>
+    <title>Server</title>
+    <vendor>Yassa Rashad</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Server.jar" size="21849" download="eager" />
+    <jar href="lib\gson-2.8.2.jar" size="232932" download="eager" />
+    <jar href="lib\json-20231013.jar" size="74702" download="eager" />
+    <jar href="lib\ojdbc8.jar" size="6980481" download="eager" />
+    <jar href="lib\protobuf-java-2.6.0.jar" size="596435" download="eager" />
+    <jar href="lib\ucp.jar" size="1485969" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Server" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Controllers.Server"  name="Server" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="800.0">
+         <image>
+            <Image url="@Images/Students.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Students" layoutX="67.0" layoutY="74.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Students" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Courses" layoutX="423.0" layoutY="74.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Courses" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Doctors" layoutX="246.0" layoutY="74.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Doctors" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Departments" layoutX="596.0" layoutY="74.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Departments" textAlignment="CENTER" textOverrun="CLIP" />
+      <Label fx:id="user_label10" layoutX="246.0" layoutY="167.0" prefHeight="45.0" prefWidth="198.0" text="First Name">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="delete" layoutX="67.0" layoutY="607.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 17; -fx-font-weight: bold;" text="Delete Student" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Grades" layoutX="67.0" layoutY="390.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Grades" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Enroll" layoutX="67.0" layoutY="276.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Enroll Courses" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Update" layoutX="67.0" layoutY="166.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="Update Info" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="Gpa" layoutX="67.0" layoutY="495.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 18; -fx-font-weight: bold;" text="GPA" textAlignment="CENTER" textOverrun="CLIP" />
+      <Label fx:id="user_label101" layoutX="246.0" layoutY="549.0" prefHeight="45.0" prefWidth="198.0" text="City">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label102" layoutX="246.0" layoutY="731.0" prefHeight="45.0" prefWidth="210.0" text="Department Code">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label103" layoutX="246.0" layoutY="607.0" prefHeight="45.0" prefWidth="198.0" text="Street">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label104" layoutX="246.0" layoutY="334.0" prefHeight="45.0" prefWidth="198.0" text="Dob">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label105" layoutX="246.0" layoutY="277.0" prefHeight="45.0" prefWidth="198.0" text="Email">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label106" layoutX="246.0" layoutY="496.0" prefHeight="45.0" prefWidth="198.0" text="Phone2">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label107" layoutX="246.0" layoutY="668.0" prefHeight="45.0" prefWidth="198.0" text="Semester">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label108" layoutX="246.0" layoutY="442.0" prefHeight="45.0" prefWidth="198.0" text="Phone1">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label109" layoutX="246.0" layoutY="391.0" prefHeight="45.0" prefWidth="198.0" text="Gender">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_label1010" layoutX="246.0" layoutY="224.0" prefHeight="45.0" prefWidth="198.0" text="Last Name">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname_txt" layoutX="466.0" layoutY="174.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <DatePicker fx:id="date_txt" layoutX="466.0" layoutY="341.0" prefHeight="31.0" prefWidth="261.0" style="-fx-background-color: transparent;" />
+      <TextField fx:id="street_txt" layoutX="466.0" layoutY="614.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="semester_txt" layoutX="466.0" layoutY="675.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="dept_code_txt" layoutX="466.0" layoutY="738.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="city_txt" layoutX="466.0" layoutY="556.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="phone2_txt" layoutX="466.0" layoutY="503.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="phone1_txt" layoutX="466.0" layoutY="449.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="gender_txt" layoutX="466.0" layoutY="398.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="lname_txt" layoutX="466.0" layoutY="231.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <TextField fx:id="email_txt" layoutX="466.0" layoutY="284.0" prefHeight="32.0" prefWidth="261.0" style="-fx-border-color: black; -fx-font-size: 15; -fx-font-style: italic; -fx-background-color: transparent; -fx-border-width: 0 0 1 0; -fx-font-color: asd;">
+         <effect>
+            <Reflection bottomOpacity="0.1" topOffset="0.1" topOpacity="0.25" />
+         </effect>
+      </TextField>
+      <Button fx:id="Enter" layoutX="384.0" layoutY="823.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="145.0" style="-fx-text-fill: black; -fx-border-color: black; -fx-cursor: hand; -fx-border-radius: 30; -fx-border-width: 2px; -fx-background-color: #ddcc9f; -fx-padding: 8; -fx-background-radius: 30; -fx-font-size: 17; -fx-font-weight: bold;" text="Enter" textAlignment="CENTER" textOverrun="CLIP" />
+      <Text fx:id="err_txt" fill="RED" layoutX="279.0" layoutY="808.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="354.6708984375">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
